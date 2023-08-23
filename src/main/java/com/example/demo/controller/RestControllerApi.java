@@ -10,6 +10,9 @@ import com.example.demo.repository.Customer;
 
 @RequestMapping
 public class RestControllerApi {
-
-
+    
+	@GetMapping("/get")
+    public String getTest() {
+		return null;
+	}
 }
