@@ -19,12 +19,12 @@ public class RestControllerApi {
 		return "betHeath up..........";
 	}
 
-
+<<<<<<< HEAD
 	@GetMapping("/allcustomer")
     public java.util.List<com.example.demo.entity.Customer>  getAllCostemer(){	
 	    //   java.util.List<com.example.demo.entity.Customer> l=crepo.findAll();
 	return null;
-
+=======
 	@GetMapping("/test2")
 	public String getTest2() {
 
@@ -33,6 +33,6 @@ public class RestControllerApi {
 
 		return "betHeath up..........";
 	}
-
+>>>>>>> s
 }
 }
