@@ -10,4 +10,9 @@ public class RestControllerApi {
 	public String getTest() {
 		return "betHeath up..........";
 	}
+	
+	@GetMapping("/test2")
+	public String getTest2() {
+		return "betHeath up..........";
+	}
 }
