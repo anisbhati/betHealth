@@ -10,13 +10,14 @@ public class RestControllerApi {
 	public String getTest() {
 		return "betHeath up..........";
 	}
-
+	
+<<<<<<< HEAD
 	@GetMapping("/test2")
 	public String getTest2() {
-
+=======
 	@GetMapping("/test3")
 	public String getTest3() {
-
+>>>>>>> m
 		return "betHeath up..........";
 	}
 }
