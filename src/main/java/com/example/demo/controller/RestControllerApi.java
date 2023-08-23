@@ -6,17 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping
 public class RestControllerApi {
     
-	@GetMapping("/test")
-	public String getTest() {
-		return "betHeath up..........";
-	}
-
-	@GetMapping("/test2")
-	public String getTest2() {
-
-	@GetMapping("/test3")
-	public String getTest3() {
-
-		return "betHeath up..........";
-	}
+	 @GetMapping("/getpolicyinfo")
+	 public String getPolicyNum() {
+		 return "null";
+	 }
 }
